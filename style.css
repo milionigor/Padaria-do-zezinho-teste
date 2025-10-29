@@ -209,7 +209,7 @@ ul {
    SEÇÃO HERO IMPACTANTE
    ===================================== */
 .hero-section {
-    background-image: url('assets/hero-padaria-moderna.jpg'); /* ✅ Imagem Sugerida */
+    background-image: url('assets/hero-padaria-moderna\ 2.0.jpg'); /* ✅ Imagem Sugerida */
     background-size: cover;
     background-position: center;
     height: 90vh;
