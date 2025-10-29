@@ -209,7 +209,7 @@ ul {
    SEÇÃO HERO IMPACTANTE
    ===================================== */
 .hero-section {
-    background-image: url('images/hero-padaria-moderna.jpg'); /* ✅ Imagem Sugerida */
+    background-image: url('assets/hero-padaria-moderna.jpg'); /* ✅ Imagem Sugerida */
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -276,7 +276,7 @@ ul {
 
 .sobre-image-placeholder {
     flex: 1;
-    background-image: url('images/zezinho-historia.jpg'); /* ✅ Imagem Sugerida */
+    background-image: url('assets/zezinho-historia.jpg'); /* ✅ Imagem Sugerida */
     background-size: cover;
     background-position: center;
     min-height: 350px;
@@ -337,10 +337,10 @@ ul {
 }
 
 /* Imagens Sugeridas para os Cards */
-.pão-img-1 { background-image: url('images/pao-frances.jpg'); }
-.doce-img-1 { background-image: url('images/bolo-vulcao.jpg'); }
-.salgado-img-1 { background-image: url('images/coxinha.jpg'); }
-.bebida-img-1 { background-image: url('images/cappuccino.jpg'); }
+.pão-img-1 { background-image: url('assets/pao-frances.png'); }
+.doce-img-1 { background-image: url('assets/bolo-vulcao.png'); }
+.salgado-img-1 { background-image: url('assets/coxinha.png'); }
+.bebida-img-1 { background-image: url('assets/cappuccino.png'); }
 
 
 .produto-card h4 {
@@ -669,3 +669,29 @@ ul {
         font-size: 1.5em;
     }
 }
+/* =====================================
+   HEADER e Navegação (Ajuste para Imagem)
+   ===================================== */
+
+/* O estilo da classe .logo (que era um H1) já pode ser ignorado/removido */
+/*
+.logo {
+    color: var(--color-secondary-cta);
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+*/
+
+/* ✅ NOVO CÓDIGO: Estilo para a imagem do Logo */
+.logo-img {
+    /* Define a altura máxima para que ele se encaixe bem no header */
+    height: 50px; 
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05); /* Efeito sutil ao passar o mouse */
+}
+/* Fim do novo código */
